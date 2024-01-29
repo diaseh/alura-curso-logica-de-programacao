@@ -4,20 +4,20 @@
 //
 //     Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
 //
-//     Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!".
+//
 //     Caso contrário, mostre "Tente novamente para ganhar.".
 //     Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
 //     Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 
-// 1) Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
-let dia = prompt("Olá qual é o dia da Semana?")
-    if(dia === "Sabado"){
-        alert("Bom final de Semana")
-    } if(dia === "Domingo"){
-    alert("Bom final de Semana")
-} else{
-        alert("Boa Semana")
+// 2) Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+let numero = prompt("Digite um Número para Identificarmos se ele é Positivo ou Negativo")
+if(numero >=0){
+    alert(`O Número ${numero} é Positivo`)
+}else{
+    alert(`O numero ${numero} é Negativo`)
 }
+
+
 
 
 
