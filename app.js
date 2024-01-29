@@ -1,20 +1,14 @@
 // Desafios
-// Pergunte ao usuário qual é o dia da semana.
-//
-//
-//     Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
-//
-//
-//     Caso contrário, mostre "Tente novamente para ganhar.".
-//     Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
-//     Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 
-// 2) Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
-let numero = prompt("Digite um Número para Identificarmos se ele é Positivo ou Negativo")
-if(numero >=0){
-    alert(`O Número ${numero} é Positivo`)
+
+// 3) Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns,
+// você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
+
+let numero = prompt("Digite um Númeto")
+if(numero >= 100){
+    alert("Parabéns Você venceu")
 }else{
-    alert(`O numero ${numero} é Negativo`)
+    alert("Tente novamente parta ganhar")
 }
 
 
