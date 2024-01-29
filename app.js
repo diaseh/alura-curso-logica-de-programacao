@@ -1,16 +1,10 @@
 // Desafios
 
 
-// 3) Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns,
-// você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
+// 4) Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
 
-let numero = prompt("Digite um Númeto")
-if(numero >= 100){
-    alert("Parabéns Você venceu")
-}else{
-    alert("Tente novamente parta ganhar")
-}
-
+let saldo = prompt("Informe o valor da sua Conta")
+    alert(`O valor da sua conta é R$${saldo}`)
 
 
 
