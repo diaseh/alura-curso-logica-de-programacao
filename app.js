@@ -4,5 +4,7 @@ let chute = prompt('Escolha um número entre 1 e 30');
 
 
 if (chute == numeroSecreto){
-    alert("Isso ai! você descobriu o número secreto (29) ")
+    alert(`Isso ai! você descobriu o número secreto ${numeroSecreto}`)
+} else {
+    alert(`Você errou`)
 }
