@@ -1,10 +1,10 @@
 // Desafios
 
 
-// 4) Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+// 5) Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 
-let saldo = prompt("Informe o valor da sua Conta")
-    alert(`O valor da sua conta é R$${saldo}`)
+let nome = prompt("Qual o seu nome")
+    alert(`Seja Bem Vindo ${ nome}`)
 
 
 
