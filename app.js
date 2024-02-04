@@ -1,9 +1,12 @@
 // Desafios
-// Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+// 3) Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
 
-let contador = 10;
+let contador = prompt("Me de um Número para contar de forma regressiva");
+
+
 while (contador >= 0){
-    alert(contador);
+   alert(contador);
+    console.log(contador);
     contador--;
 }
 
