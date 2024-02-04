@@ -1,16 +1,26 @@
-let qtdNumeros = prompt('Digite a quantidade de números para o cálculo da média:');
-let soma = 0;
-let contador = qtdNumeros;
+// Desafios
+// Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
 
-while(contador > 0){
-    let numero = parseInt(prompt('Digite o numero:'));
-    soma += numero;
-    contador --;
+let contador = 1;
+while (contador <= 10){
+    alert(contador);
+    contador++;
 }
 
-let media = soma / qtdNumeros;
 
-console.log(media);
+// let qtdNumeros = prompt('Digite a quantidade de números para o cálculo da média:');
+// let soma = 0;
+// let contador = qtdNumeros;
+//
+// while(contador > 0){
+//     let numero = parseInt(prompt('Digite o numero:'));
+//     soma += numero;
+//     contador --;
+// }
+//
+// let media = soma / qtdNumeros;
+//
+// console.log(media);
 
 
 
