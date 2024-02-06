@@ -1,12 +1,12 @@
 
 alert('Boas-vindas ao jogo do número secreto');
 let nome = prompt("Qual seu Nome");
-let numeroSecreto = 29;
+let numeroSecreto = parseInt(Math.random()*100+1);
 let chute;
 let tentativas = 1;
 
 while(chute != numeroSecreto){
-    chute  = prompt('Escolha um número entre 1 e 30');
+    chute  = prompt('Escolha um número entre 1 e 100');
     if (chute == numeroSecreto){
         break;
     } else {
