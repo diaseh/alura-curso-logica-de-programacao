@@ -19,11 +19,14 @@ while(chute != numeroSecreto){
     }
 
 }
-    if (tentativas > 1) {
-        alert(`Isso ai ${nome}! você descobriu o número secreto ${numeroSecreto} em ${tentativas} tentativas`);
-    } else {
-        alert(`Isso ai${nome} você descobriu o número secreto ${numeroSecreto} em ${tentativas} tentativa`);
-    }
+let palavraTentativa = tentativas >1 ? 'tentativas' : 'tentativa';
+alert(`Isso ai ${nome}! você descobriu o número secreto ${numeroSecreto} em ${tentativas} ${palavraTentativa}`);
+
+    // if (tentativas > 1) {
+    //     alert(`Isso ai ${nome}! você descobriu o número secreto ${numeroSecreto} em ${tentativas} tentativas`);
+    // } else {
+    //     alert(`Isso ai${nome} você descobriu o número secreto ${numeroSecreto} em ${tentativas} tentativa`);
+    // }
 
 
 
