@@ -1,10 +1,9 @@
 //08 Desafio: hora da prática
 // Desafios finais
-//2)-Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utilize o console.log para exibir a mensagem "Olá, [seu nome]!" no console do navegador.
+//3)-Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utilize o alert para exibir a mensagem "Olá, [seu nome]!" .
 
 let nome = "Eduardo"
-    console.log(`Olá ${nome} Seja Bem Vindo`);
-
+    alert(`Olá, ${nome}`)
 
 
 
