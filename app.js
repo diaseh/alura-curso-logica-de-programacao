@@ -1,6 +1,8 @@
+//08 Desafio: hora da prática
+// Desafios finais
+//1)-Crie um programa que utilize o console.log para exibir uma mensagem de boas-vindas.
 
-let palavraPessoa = quantidadePessoas == 1 ? "pessoa" : "pessoas";
-
+let msg = console.log("Seja Bem Vindo");
 
 
 
