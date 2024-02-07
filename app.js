@@ -1,10 +1,14 @@
 //08 Desafio: hora da prática
 // Desafios finais
-//4)-Utilize o prompt e faça a seguinte pergunta: Qual a linguagem de programação que você mais gosta?.
-// Em seguida, armazene a resposta em uma variável e mostre no console do navegador.
+//5)-Crie uma variável chamada "valor1" e outra chamada "valor2", atribuindo a elas valores numéricos de sua escolha.
+// Em seguida, realize a soma desses dois valores e armazene o resultado em uma terceira variável chamada "resultado".
+// Utilize o console.log para mostrar a mensagem "A soma de [valor1] e [valor2] é igual a [resultado]." no console.
 
-let pergunta = prompt(`Qual a linguagem de programação que você mais gosta ?`);
-    console.log(pergunta);
+var valor1 = parseInt(prompt("Me passe o valor 1"));
+var valor2 = parseInt(prompt("Me passe o valor 2"));
+var resultado = (valor1+valor2);
+    console.log(`A soma de ${valor1} e ${valor2} é igual a ${resultado}`);
+    alert(`A soma de ${valor1} e ${valor2} é igual a ${resultado}`);
 
 
 // alert('Boas-vindas ao jogo do número secreto');
