@@ -1,8 +1,9 @@
 //08 Desafio: hora da prática
 // Desafios finais
-//1)-Crie um programa que utilize o console.log para exibir uma mensagem de boas-vindas.
+//2)-Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utilize o console.log para exibir a mensagem "Olá, [seu nome]!" no console do navegador.
 
-let msg = console.log("Seja Bem Vindo");
+let nome = "Eduardo"
+    console.log(`Olá ${nome} Seja Bem Vindo`);
 
 
 
