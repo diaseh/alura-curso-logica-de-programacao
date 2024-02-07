@@ -1,10 +1,10 @@
 //08 Desafio: hora da prática
 // Desafios finais
-//3)-Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utilize o alert para exibir a mensagem "Olá, [seu nome]!" .
+//4)-Utilize o prompt e faça a seguinte pergunta: Qual a linguagem de programação que você mais gosta?.
+// Em seguida, armazene a resposta em uma variável e mostre no console do navegador.
 
-let nome = "Eduardo"
-    alert(`Olá, ${nome}`)
-
+let pergunta = prompt(`Qual a linguagem de programação que você mais gosta ?`);
+    console.log(pergunta);
 
 
 // alert('Boas-vindas ao jogo do número secreto');
