@@ -1,15 +1,15 @@
 //08 Desafio: hora da prática
 // Desafios finais
-//6)-Crie uma variável chamada "valor1" e outra chamada "valor2", atribuindo a elas valores numéricos de sua escolha.
-// Em seguida, realize a subtração desses dois valores e armazene o resultado em uma terceira variável chamada "resultado".
-// Utilize o console.log para mostrar a mensagem "A diferença entre [valor1] e [valor2] é igual a [resultado]." no console.
+//7)Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida,
+// utilize um if para verificar se a pessoa é maior ou menor de idade,
+// exibindo uma mensagem apropriada no console.
 
-var valor1 = parseInt(prompt("Me passe o primeiro valor a ser subtraido"))
-var valor2 = parseInt(prompt("Me passe o segundo valor a ser subtratido"))
-var resultado = (valor1 - valor2)
-    console.log(`O valor da subtração de ${valor1} com ${valor2} é ${resultado}`)
-    alert(`O valor da subtração de ${valor1} com ${valor2} é ${resultado}`)
-
+let idade = prompt("Me passa sua Idade")
+    if (idade<18){
+        alert("Você é menor de idade")
+    } else {
+        alert("Você é maior de idade")
+    }
 
 
 // alert('Boas-vindas ao jogo do número secreto');
