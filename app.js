@@ -1,10 +1,9 @@
 //08 Desafio: hora da prática
 // Desafios finais
-//12)Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.
+//13)Use o Math.random para gerar um número inteiro entre 1 e 1000 e exiba esse número no console.
 
-let numero = parseInt(Math.random()*10);
-    alert(`O número gerado de 0 a 10 será ${numero}`)
-    console.log(numero)
+let numero = parseInt(Math.random()*1000);
+    alert(`O número gerado automaticamente de 1 a 1000 será ${numero}`)
 
 
 
