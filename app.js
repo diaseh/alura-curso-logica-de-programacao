@@ -1,14 +1,14 @@
 //08 Desafio: hora da prática
 // Desafios finais
-//8)Crie uma variável "numero" e peça um valor com prompt verifique se é positivo,
-// negativo ou zero. Use if-else para imprimir a respectiva mensagem.
+//9)Use um loop while para imprimir os números de 1 a 10 no console.
 
-let numero = parseInt(prompt("Digite um Número"))
-    if(numero<0){
-        alert("Número Negativo")
-    } else{
-        alert("Número Positivo")
+let numero = 0;
+    while(numero < 11){
+        alert(numero)
+        console.log(numero)
+        numero ++;
     }
+
 
 
 // alert('Boas-vindas ao jogo do número secreto');
