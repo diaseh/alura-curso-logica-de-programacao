@@ -1,14 +1,10 @@
 //08 Desafio: hora da prática
 // Desafios finais
-//10)Crie uma variável "nota" e atribua um valor numérico a ela.
-// Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
+//11)Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.
 
-let nota = prompt("Digite sua Nota")
-    if(nota >= 7){
-        alert("Aprovado")
-    } else {
-        alert("Reprovado")
-    }
+let numero = parseInt(Math.random()*10);
+    alert(numero)
+    console.log(numero)
 
 
 
