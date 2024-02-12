@@ -1,14 +1,13 @@
 //08 Desafio: hora da prática
 // Desafios finais
-//7)Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida,
-// utilize um if para verificar se a pessoa é maior ou menor de idade,
-// exibindo uma mensagem apropriada no console.
+//8)Crie uma variável "numero" e peça um valor com prompt verifique se é positivo,
+// negativo ou zero. Use if-else para imprimir a respectiva mensagem.
 
-let idade = prompt("Me passa sua Idade")
-    if (idade<18){
-        alert("Você é menor de idade")
-    } else {
-        alert("Você é maior de idade")
+let numero = parseInt(prompt("Digite um Número"))
+    if(numero<0){
+        alert("Número Negativo")
+    } else{
+        alert("Número Positivo")
     }
 
 
